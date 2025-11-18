@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd sanity-studio && npm install && npm run build",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

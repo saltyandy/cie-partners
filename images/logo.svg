@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .logo-circle { fill: white; opacity: 0.1; }
+      .logo-text { font-family: Arial, sans-serif; font-size: 32px; font-weight: bold; fill: white; text-anchor: middle; }
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="100" class="logo-circle" />
+  <text x="100" y="120" class="logo-text">CIE</text>
+</svg>
