@@ -1,24 +1,11 @@
-# Dependencies
-node_modules/
-npm-debug.log
-yarn-error.log
-
-# Sanity
-.sanity/
-dist/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
 .DS_Store
 Thumbs.db
+.vercel
+node_modules/
 
-# Environment
-.env
-.env.local
-.env.*.local
+# Not part of the live site (kept locally, not deployed)
+sanity-studio/
+css/
+images/
+public/js/
+package.json
