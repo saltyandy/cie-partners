@@ -165,6 +165,15 @@ footer {
     font-size: 14px;
 }
 
+footer .disclaimer {
+    max-width: 760px;
+    margin: 12px auto 0;
+}
+
+footer .disclaimer p + p {
+    margin-top: 8px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero {
